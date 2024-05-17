@@ -1,5 +1,35 @@
-This is a demo front-end I developed for a patient feedback survey website where the said healthcare facility can sign in on our website, have access to our customized survey and simply upload the csv of their answers on the website to get a sample report of their customer's answers and a quick look into how the performance of various aspects of the facility is reviewed by their own patients.
-The site has a back-end developed on django, but these files are solely the front-end i have designed. It is very basic and the login feature is a dummy feature for now and is just exisiting as a placeholder.
+# Patient Feedback Survey Website
 
-Working demo of the front-end and back-end: https://drive.google.com/file/d/1H-ynAoysXEuobLo3Ix5Ml6l8d07ly92Q/view?usp=sharing
+This repository contains the front-end of a Patient Feedback Survey Website. The goal of this project is to provide healthcare facilities with a platform where they can sign in, access customized surveys, and upload CSV files containing patient feedback. Upon uploading the feedback, users can receive a sample report that offers insights into the performance of various aspects of their facility as reviewed by their patients.
+
+## Overview
+
+The current front-end is a basic implementation designed to showcase the concept. The back-end of this project is developed using Django, while this repository focuses solely on the front-end components. Note that the login feature is currently a placeholder and does not perform actual authentication.
+
+## Features
+
+- **Custom Survey Access**: Healthcare facilities can access customized surveys tailored to their needs.
+- **CSV Upload**: Users can upload CSV files containing survey responses.
+- **Sample Report**: A quick report is generated from the uploaded CSV, providing insights into patient feedback.
+- **Basic Front-End**: A simple, intuitive interface for interacting with the platform.
+
+## Working Demo
+
+A working demo of both the front-end and back-end can be accessed [here](https://drive.google.com/file/d/1H-ynAoysXEuobLo3Ix5Ml6l8d07ly92Q/view?usp=sharing).
+
+## Technologies Used
+
+- **Front-End**: HTML, CSS, JavaScript
+- **Back-End**: Django (not included in this repository)
+
+
+## Getting Started
+
+To get started with the front-end, simply clone this repository and open the `index.html` file in your web browser.
+
+```bash
+git clone https://github.com/yourusername/patient-feedback-survey-frontend.git
+cd patient-feedback-survey-frontend
+open index.html
+
 
